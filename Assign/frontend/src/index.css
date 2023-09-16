@@ -1,0 +1,40 @@
+/* MovieCard.css */
+.movie-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-poster {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+  background-repeat: no-repeat;
+}
+
+.movie-details {
+  flex-grow: 1;
+  padding: 16px;
+}
+
+.movie-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.movie-rating,
+.movie-released-date {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+/* You can add more styles as needed */
